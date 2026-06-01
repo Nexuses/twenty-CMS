@@ -283,6 +283,8 @@ const MainPage = () => {
   );
 };
 
+export { MainPage };
+
 export default defineFrontComponent({
   universalIdentifier: MAIN_PAGE_FRONT_COMPONENT_UNIVERSAL_IDENTIFIER,
   name: APP_DISPLAY_NAME,
