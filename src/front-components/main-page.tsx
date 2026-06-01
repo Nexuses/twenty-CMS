@@ -227,68 +227,40 @@ const MainPage = () => {
           lineHeight: '1.5',
         }}
       >
-        A Twenty CRM app built with the Twenty SDK.
+        Was installed successfully.
         <br />
-        Explore the capabilities below or read the docs to get started.
+        You can now add content to your app.
       </span>
-      <div style={{ display: 'flex', gap: '10px', marginTop: '16px', flexWrap: 'wrap', justifyContent: 'center' }}>
-        <a
-          href="https://github.com/Nexuses/twenty-CMS"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '6px',
-            fontSize: '13px',
-            color: '#333',
-            textDecoration: 'none',
-            padding: '8px 16px',
-            borderRadius: '8px',
-            border: '1px solid #e0e0e0',
-            background: '#fafafa',
-            transition: 'background 0.15s, border-color 0.15s',
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.background = '#f0f0f0';
-            e.currentTarget.style.borderColor = '#ccc';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.background = '#fafafa';
-            e.currentTarget.style.borderColor = '#e0e0e0';
-          }}
-        >
-          View on GitHub
-          <ArrowUpRight color="#333" />
-        </a>
-        <a
-          href="https://docs.twenty.com/developers/extend/capabilities/apps"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '6px',
-            fontSize: '13px',
-            color: '#fff',
-            textDecoration: 'none',
-            padding: '8px 16px',
-            borderRadius: '8px',
-            border: '1px solid #333',
-            background: '#333',
-            transition: 'background 0.15s, border-color 0.15s',
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.background = '#555';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.background = '#333';
-          }}
-        >
-          Read the Docs
-          <ArrowUpRight color="#fff" />
-        </a>
-      </div>
+      <a
+        href="https://app.twenty.com/settings/applications#installed"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: '6px',
+          marginTop: '16px',
+          fontSize: '13px',
+          color: '#333',
+          textDecoration: 'none',
+          padding: '8px 16px',
+          borderRadius: '8px',
+          border: '1px solid #e0e0e0',
+          background: '#fafafa',
+          transition: 'background 0.15s, border-color 0.15s',
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = '#f0f0f0';
+          e.currentTarget.style.borderColor = '#ccc';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = '#fafafa';
+          e.currentTarget.style.borderColor = '#e0e0e0';
+        }}
+      >
+        Open app settings
+        <ArrowUpRight color="#333" />
+      </a>
       <div
         style={{
           display: 'flex',
